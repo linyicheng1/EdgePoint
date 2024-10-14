@@ -31,7 +31,12 @@ We follow the same protocols in ALIKE, estimate the Mean Homography Accuracy (MH
 
 ### How to use it 
 
+#### Kitti Example 
 
+```python
+python Demo.py assets/kitti
+```
+![kitti](./assets/kitti.gif)
 
 ### Training
 
