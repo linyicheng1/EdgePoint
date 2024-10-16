@@ -225,7 +225,7 @@ if __name__ == '__main__':
                         help='Detect top K keypoints. -1 for threshold based mode, >0 for top K mode. (default: -1)')
     parser.add_argument('--scores_th', type=float, default=0.5,
                         help='Detector score threshold (default: 0.2).')
-    parser.add_argument('--n_limit', type=int, default=400,
+    parser.add_argument('--n_limit', type=int, default=2000,
                         help='Maximum number of keypoints to be detected (default: 5000).')
     parser.add_argument('--no_display', action='store_true',
                         help='Do not display images to screen. Useful if running remotely (default: False).')
