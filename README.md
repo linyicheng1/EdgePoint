@@ -39,7 +39,6 @@ python Demo.py assets/kitti
 ![kitti](./assets/kitti.gif)
 
 ### Training
-
-
+TODO 
 
 
